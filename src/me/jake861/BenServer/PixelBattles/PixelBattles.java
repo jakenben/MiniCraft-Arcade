@@ -328,9 +328,12 @@ public class PixelBattles implements Listener {
 		int count = 0;
 		int blocks = 0;
 		for(Location loc : Util.getBuildAreaManager().getBuildArea(player).getBuildBlocks()) {
-			if(loc.getBlock().getType().equals(currentDrawing.get(player).getBlocks().get(count).getBlock().getType()) &&
-			   loc.getBlock().getData() == currentDrawing.get(player).getBlocks().get(count).getBlock().getData()) {
-				blocks++;
+			if((loc.getBlock().getType() == currentDrawing.get(player).getBlocks().get(count).getBlock().getType()) &&
+			 {
+			 	if(!(loc.getBlock().getData() == currentDrawing.get(player).getBlocks().get(count).getBlock().getData())))
+			 	return;
+			 	
+				else blocks++;
 			} 
 			count++;
 			if(blocks >= Util.getBuildAreaManager().getBuildArea(player).getBuildBlocks().size()) {
