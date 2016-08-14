@@ -1,0 +1,55 @@
+name: Arcade
+version: 0.1
+main: me.jake861.BenServer.Main
+commands:
+  hub:
+    description: Sends the player to the hub.
+    usage: /<command>
+  updaterank:
+    description: Update a rank.
+    usage: /<command> player rank
+  buildmode:
+    description: Makes you a builder.
+    usage: /<command>
+  coins:
+    description: Tells you how many coins you have.
+    usage: /<command>
+  kit:
+    description: Chooses a kit.
+    usage: /<command> kit
+  cactice:
+    description: Adds player to Cactice.
+    usage: /<command>
+  spleef:
+    description: Adds player to Spleef.
+    usage: /<command>
+  towerdefense:
+    description: Adds player to Tower Defense.
+    usage: /<command>
+  kits:
+    description: Shows all kits.
+    usage: /<command>
+  savespleef:
+    description: Saves spleef map.
+    usage: /<command>
+  msg:
+    description: Sends a message to the player.
+    usage: /<command> player message
+  r:
+    description: Sends a message to the last player you messaged.
+    usage: /r <message>
+  intro:
+    description: Adds you to intro room.
+    usage: /<command>
+  addcoins:
+    description: Adds coins
+    usage: /<command> player coins
+  removecoins:
+    description: Removes coins
+    usage: /<command> player coins
+  resetspleef:
+    description: resets spleef
+    usage: /<command>
+  pixelbattles:
+    description: Join Pixel Battles
+    usage: /<command>
